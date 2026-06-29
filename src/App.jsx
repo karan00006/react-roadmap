@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Moon, Sun, Code2, Server, ChevronDown, ChevronRight, ExternalLink, Github, Linkedin, BookOpen, Youtube, Globe } from 'lucide-react'
+import { Moon, Sun, Code2, Server, ChevronDown, ChevronRight, ExternalLink, Github, Linkedin, BookOpen, Youtube, Globe, Zap } from 'lucide-react'
 
 const roadmapData = {
   frontend: {
     title: "Frontend Development",
     icon: Code2,
-    duration: "2 Months",
+    duration: "2.5 Months",
     color: "from-blue-500 to-cyan-500",
     weeks: [
       {
@@ -31,6 +31,25 @@ const roadmapData = {
       },
       {
         week: 2,
+        title: "Git & GitHub Fundamentals",
+        topics: [
+          "Git Basics & Commands",
+          "GitHub Repository Management",
+          "Branching & Merging",
+          "Pull Requests & Code Review",
+          "Git Workflows"
+        ],
+        resources: [
+          { name: "Git Documentation", url: "https://git-scm.com/doc", type: "website" },
+          { name: "GitHub Guides", url: "https://guides.github.com/", type: "website" },
+          { name: "GitHub Skills", url: "https://skills.github.com/", type: "website" },
+          { name: "Git & GitHub Full Course", url: "https://www.youtube.com/watch?v=RGOj5W-h7w4", type: "youtube" },
+          { name: "Git Tutorial for Beginners", url: "https://www.youtube.com/watch?v=HVsySz-h8r4", type: "youtube" },
+          { name: "GitHub Complete Tutorial", url: "https://www.youtube.com/watch?v=3RjQ1utlKs0", type: "youtube" }
+        ]
+      },
+      {
+        week: 3,
         title: "JavaScript Essentials",
         topics: [
           "Variables & Data Types",
@@ -49,7 +68,7 @@ const roadmapData = {
         ]
       },
       {
-        week: 3,
+        week: 4,
         title: "React Fundamentals",
         topics: [
           "Components & Props",
@@ -68,7 +87,7 @@ const roadmapData = {
         ]
       },
       {
-        week: 4,
+        week: 5,
         title: "Advanced React",
         topics: [
           "Custom Hooks",
@@ -87,7 +106,7 @@ const roadmapData = {
         ]
       },
       {
-        week: 5,
+        week: 6,
         title: "State Management & Performance",
         topics: [
           "Redux Toolkit",
@@ -106,7 +125,7 @@ const roadmapData = {
         ]
       },
       {
-        week: 6,
+        week: 7,
         title: "Testing & Deployment",
         topics: [
           "Jest & React Testing Library",
@@ -125,7 +144,7 @@ const roadmapData = {
         ]
       },
       {
-        week: 7,
+        week: 8,
         title: "UI Libraries & Styling",
         topics: [
           "Tailwind CSS",
@@ -144,7 +163,7 @@ const roadmapData = {
         ]
       },
       {
-        week: 8,
+        week: 9,
         title: "Final Projects & Portfolio",
         topics: [
           "Build Complete Projects",
@@ -369,8 +388,16 @@ function App() {
               animate={{ opacity: 1, x: 0 }}
               className="flex items-center gap-2 sm:gap-3"
             >
-              <Code2 className="w-6 h-6 sm:w-8 sm:h-8 text-primary-600 dark:text-primary-400" />
-              <h1 className="text-xl sm:text-2xl font-bold gradient-text">Dev Roadmap</h1>
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-primary-500 to-accent-500 rounded-xl blur-lg opacity-50 animate-pulse"></div>
+                <div className="relative bg-gradient-to-br from-primary-500 to-accent-600 p-2 rounded-xl">
+                  <Zap className="w-5 h-5 sm:w-7 sm:h-7 text-white" />
+                </div>
+              </div>
+              <div>
+                <h1 className="text-xl sm:text-2xl font-bold gradient-text">Dev Roadmap</h1>
+                <p className="text-xs text-gray-500 dark:text-gray-400 font-medium tracking-wider">LEARN • BUILD • DEPLOY</p>
+              </div>
             </motion.div>
             
             <motion.button
