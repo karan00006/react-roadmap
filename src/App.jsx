@@ -504,50 +504,85 @@ function App() {
               transition={{ duration: 0.3 }}
             >
               {/* Hero Section */}
-              <section className="mb-8 sm:mb-12">
-                <div className="max-w-4xl mx-auto text-center">
-                  <motion.h2
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 gradient-text"
-                  >
-                    Your Complete Learning Roadmap
-                  </motion.h2>
-                  <motion.p
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.2 }}
-                    className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-6 sm:mb-8"
-                  >
-                    Master Frontend with React and Backend with Express in just 4.5 months
-                  </motion.p>
+              <section className="mb-8 sm:mb-12 relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-primary-500/10 to-accent-500/10 rounded-3xl blur-3xl"></div>
+                <div className="relative max-w-6xl mx-auto">
+                  <div className="glass-card rounded-3xl p-8 sm:p-12 lg:p-16 text-center">
+                    <motion.div
+                      initial={{ opacity: 0, scale: 0.9 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      className="mb-6"
+                    >
+                      <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-full text-sm font-medium mb-6">
+                        <Zap className="w-4 h-4" />
+                        <span>Start Your Journey Today</span>
+                      </div>
+                    </motion.div>
+                    
+                    <motion.h2
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 gradient-text"
+                    >
+                      Your Complete Learning Roadmap
+                    </motion.h2>
+                    
+                    <motion.p
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.2 }}
+                      className="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 sm:mb-10 max-w-3xl mx-auto"
+                    >
+                      Master Frontend with React and Backend with Express in just 4.5 months. Structured learning path with curated resources from the best educators.
+                    </motion.p>
 
-                  {/* Track Selection */}
-                  <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.4 }}
-                    className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center"
-                  >
-                    {Object.entries(roadmapData).map(([key, track]) => {
-                      const Icon = track.icon
-                      return (
-                        <button
-                          key={key}
-                          onClick={() => setActiveTrack(key)}
-                          className={`flex items-center justify-center gap-2 sm:gap-3 px-4 sm:px-6 py-3 sm:py-4 rounded-xl font-semibold transition-all duration-300 ${
-                            activeTrack === key
-                              ? `bg-gradient-to-r ${track.color} text-white shadow-lg scale-105`
-                              : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:shadow-md'
-                          }`}
-                        >
-                          <Icon className="w-5 h-5 sm:w-6 sm:h-6" />
-                          <span className="text-sm sm:text-base">{track.title}</span>
-                          <span className="text-xs sm:text-sm opacity-80">({track.duration})</span>
-                        </button>
-                      )
-                    })}
-                  </motion.div>
+                    {/* Stats */}
+                    <motion.div
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.3 }}
+                      className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-8 sm:mb-10"
+                    >
+                      {[
+                        { value: '9+', label: 'Weeks' },
+                        { value: '50+', label: 'Topics' },
+                        { value: '100+', label: 'Resources' },
+                        { value: 'Free', label: 'Forever' }
+                      ].map((stat, idx) => (
+                        <div key={idx} className="bg-gray-50 dark:bg-gray-700/50 rounded-xl p-4">
+                          <div className="text-2xl sm:text-3xl font-bold gradient-text">{stat.value}</div>
+                          <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">{stat.label}</div>
+                        </div>
+                      ))}
+                    </motion.div>
+
+                    {/* Track Selection */}
+                    <motion.div
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.4 }}
+                      className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center"
+                    >
+                      {Object.entries(roadmapData).map(([key, track]) => {
+                        const Icon = track.icon
+                        return (
+                          <button
+                            key={key}
+                            onClick={() => setActiveTrack(key)}
+                            className={`flex items-center justify-center gap-2 sm:gap-3 px-4 sm:px-6 py-3 sm:py-4 rounded-xl font-semibold transition-all duration-300 ${
+                              activeTrack === key
+                                ? `bg-gradient-to-r ${track.color} text-white shadow-lg scale-105`
+                                : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:shadow-md'
+                            }`}
+                          >
+                            <Icon className="w-5 h-5 sm:w-6 sm:h-6" />
+                            <span className="text-sm sm:text-base">{track.title}</span>
+                            <span className="text-xs sm:text-sm opacity-80">({track.duration})</span>
+                          </button>
+                        )
+                      })}
+                    </motion.div>
+                  </div>
                 </div>
               </section>
 
@@ -866,31 +901,199 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="mt-12 sm:mt-16 py-6 sm:py-8 border-t border-gray-200 dark:border-gray-700 bg-white/50 dark:bg-gray-800/50 backdrop-blur">
+      <footer className="mt-12 sm:mt-16 py-12 sm:py-16 border-t border-gray-200 dark:border-gray-700 bg-white/50 dark:bg-gray-800/50 backdrop-blur">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6">
-            <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 text-center sm:text-left">
-              Made with ❤️ by <span className="font-semibold text-primary-600 dark:text-primary-400">Karan</span>
-            </p>
-            <div className="flex items-center gap-3 sm:gap-4">
-              <a
-                href="https://www.linkedin.com/in/karan-jee-50868b315"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-3 sm:px-4 py-2 rounded-lg bg-[#0077b5] text-white hover:bg-[#006097] transition-colors"
-              >
-                <Linkedin className="w-4 h-4 sm:w-5 sm:h-5" />
-                <span className="font-medium text-sm sm:text-base">LinkedIn</span>
-              </a>
-              <a
-                href="https://github.com/karan00006"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-3 sm:px-4 py-2 rounded-lg bg-gray-900 dark:bg-gray-700 text-white hover:bg-gray-800 dark:hover:bg-gray-600 transition-colors"
-              >
-                <Github className="w-4 h-4 sm:w-5 sm:h-5" />
-                <span className="font-medium text-sm sm:text-base">GitHub</span>
-              </a>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 mb-8 sm:mb-12">
+            {/* Brand Section */}
+            <div className="lg:col-span-1">
+              <div className="flex items-center gap-2 mb-4">
+                <div className="relative">
+                  <div className="absolute inset-0 bg-gradient-to-r from-primary-500 to-accent-500 rounded-xl blur-lg opacity-50 animate-pulse"></div>
+                  <div className="relative bg-gradient-to-br from-primary-500 to-accent-600 p-2 rounded-xl">
+                    <Zap className="w-5 h-5 text-white" />
+                  </div>
+                </div>
+                <span className="text-xl font-bold gradient-text">Dev Roadmap</span>
+              </div>
+              <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+                Your comprehensive guide to becoming a full-stack developer. Learn, build, and deploy with confidence.
+              </p>
+              <div className="flex items-center gap-3">
+                <a
+                  href="https://www.linkedin.com/in/karan-jee-50868b315"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-lg bg-[#0077b5] text-white hover:bg-[#006097] transition-colors"
+                >
+                  <Linkedin className="w-4 h-4" />
+                </a>
+                <a
+                  href="https://github.com/karan00006"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-lg bg-gray-900 dark:bg-gray-700 text-white hover:bg-gray-800 dark:hover:bg-gray-600 transition-colors"
+                >
+                  <Github className="w-4 h-4" />
+                </a>
+              </div>
+            </div>
+
+            {/* Quick Links */}
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Quick Links</h3>
+              <ul className="space-y-3">
+                <li>
+                  <button
+                    onClick={() => setActiveTab('roadmap')}
+                    className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  >
+                    Learning Roadmap
+                  </button>
+                </li>
+                <li>
+                  <button
+                    onClick={() => setActiveTab('about')}
+                    className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  >
+                    About Us
+                  </button>
+                </li>
+                <li>
+                  <button
+                    onClick={() => setActiveTab('blog')}
+                    className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  >
+                    Developer Blog
+                  </button>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/karan00006/react-roadmap"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  >
+                    GitHub Repository
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Learning Paths */}
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Learning Paths</h3>
+              <ul className="space-y-3">
+                <li>
+                  <button
+                    onClick={() => { setActiveTab('roadmap'); setActiveTrack('frontend'); }}
+                    className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  >
+                    Frontend Development
+                  </button>
+                </li>
+                <li>
+                  <button
+                    onClick={() => { setActiveTab('roadmap'); setActiveTrack('backend'); }}
+                    className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  >
+                    Backend Development
+                  </button>
+                </li>
+                <li>
+                  <a
+                    href="https://react.dev/learn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  >
+                    React Documentation
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://expressjs.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  >
+                    Express Documentation
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Resources */}
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Resources</h3>
+              <ul className="space-y-3">
+                <li>
+                  <a
+                    href="https://www.w3schools.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  >
+                    W3Schools
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://developer.mozilla.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  >
+                    MDN Web Docs
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/c/freeCodeCamp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  >
+                    freeCodeCamp
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/goldbergyoni/nodebestpractices"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                  >
+                    Node.js Best Practices
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Bottom Bar */}
+          <div className="pt-8 border-t border-gray-200 dark:border-gray-700">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+              <p className="text-sm text-gray-600 dark:text-gray-400 text-center sm:text-left">
+                Made with ❤️ by <span className="font-semibold text-primary-600 dark:text-primary-400">Karan</span> • © 2024 Dev Roadmap. All rights reserved.
+              </p>
+              <div className="flex items-center gap-4 text-sm text-gray-600 dark:text-gray-400">
+                <a
+                  href="https://github.com/karan00006/react-roadmap"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                >
+                  MIT License
+                </a>
+                <a
+                  href="https://github.com/karan00006/react-roadmap/issues"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
+                >
+                  Report Issue
+                </a>
+              </div>
             </div>
           </div>
         </div>
