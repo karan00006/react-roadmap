@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Moon, Sun, Code2, Server, ChevronDown, ChevronRight, ExternalLink, Github, Linkedin, BookOpen, Youtube, Globe, Zap, Menu, X, User, FileText } from 'lucide-react'
+import { Moon, Sun, Code2, Server, ChevronDown, ChevronRight, ExternalLink, Github, Linkedin, BookOpen, Youtube, Globe, Menu, X, User, FileText } from 'lucide-react'
 
 const roadmapData = {
   frontend: {
@@ -391,25 +391,37 @@ function App() {
       <header className="sticky top-0 z-50 glass-card border-b border-gray-200 dark:border-gray-700">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-3 sm:py-4">
           <div className="flex items-center justify-between">
-            <motion.a
-              href="https://github.com/karan00006/react-roadmap"
-              target="_blank"
-              rel="noopener noreferrer"
+            <motion.button
+              onClick={() => setActiveTab('roadmap')}
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
-              className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity"
+              className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity cursor-pointer"
             >
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-500 to-accent-500 rounded-xl blur-lg opacity-50 animate-pulse"></div>
                 <div className="relative bg-gradient-to-br from-primary-500 to-accent-600 p-2 rounded-xl">
-                  <Zap className="w-5 h-5 sm:w-7 sm:h-7 text-white" />
+                  <svg
+                    viewBox="0 0 40 40"
+                    className="w-6 h-6 sm:w-8 sm:h-8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect width="40" height="40" rx="8" fill="url(#logo-gradient)" />
+                    <path d="M12 20L18 26L28 14" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                    <defs>
+                      <linearGradient id="logo-gradient" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                        <stop stopColor="#3B82F6" />
+                        <stop offset="1" stopColor="#8B5CF6" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
                 </div>
               </div>
               <div className="hidden sm:block">
                 <h1 className="text-xl sm:text-2xl font-bold gradient-text">Dev Roadmap</h1>
                 <p className="text-xs text-gray-500 dark:text-gray-400 font-medium tracking-wider">LEARN • BUILD • DEPLOY</p>
               </div>
-            </motion.a>
+            </motion.button>
             
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-6">
@@ -514,7 +526,7 @@ function App() {
                       className="mb-6"
                     >
                       <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-full text-sm font-medium mb-6">
-                        <Zap className="w-4 h-4" />
+                        <Code2 className="w-4 h-4" />
                         <span>Start Your Journey Today</span>
                       </div>
                     </motion.div>
@@ -910,7 +922,21 @@ function App() {
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-primary-500 to-accent-500 rounded-xl blur-lg opacity-50 animate-pulse"></div>
                   <div className="relative bg-gradient-to-br from-primary-500 to-accent-600 p-2 rounded-xl">
-                    <Zap className="w-5 h-5 text-white" />
+                    <svg
+                      viewBox="0 0 40 40"
+                      className="w-6 h-6"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect width="40" height="40" rx="8" fill="url(#footer-logo-gradient)" />
+                      <path d="M12 20L18 26L28 14" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                      <defs>
+                        <linearGradient id="footer-logo-gradient" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+                          <stop stopColor="#3B82F6" />
+                          <stop offset="1" stopColor="#8B5CF6" />
+                        </linearGradient>
+                      </defs>
+                    </svg>
                   </div>
                 </div>
                 <span className="text-xl font-bold gradient-text">Dev Roadmap</span>
