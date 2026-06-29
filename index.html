@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Complete 4-month roadmap to master Frontend (React) and Express Backend — from zero to job-ready." />
+  <title>Full Stack Roadmap | React + Express by Karan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>" />
+</head>
+<body>
+  <div class="bg-gradient" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">
+        <span class="logo-icon">⚡</span>
+        <span>DevRoadmap</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#foundation">Foundation</a></li>
+        <li><a href="#react">React</a></li>
+        <li><a href="#express">Express</a></li>
+        <li><a href="#resources">Resources</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero container" id="overview">
+      <div class="hero-badge animate-fade-up">Complete Learning Path</div>
+      <h1 class="hero-title animate-fade-up delay-1">
+        Master <span class="gradient-text">Frontend & Backend</span><br />
+        From Zero to Full Stack
+      </h1>
+      <p class="hero-subtitle animate-fade-up delay-2">
+        A structured, week-by-week guide — 4 weeks of fundamentals, React in 2 months, and Express backend in 2 months — with curated free resources.
+      </p>
+      <div class="hero-stats animate-fade-up delay-3">
+        <div class="stat-card">
+          <span class="stat-number">5</span>
+          <span class="stat-label">Months</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">20</span>
+          <span class="stat-label">Weeks</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">50+</span>
+          <span class="stat-label">Resources</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Free</span>
+        </div>
+      </div>
+      <div class="timeline-preview animate-fade-up delay-4">
+        <div class="timeline-track">
+          <div class="timeline-phase" data-phase="foundation">
+            <div class="phase-dot"></div>
+            <span>Foundation</span>
+            <small>Weeks 1–4</small>
+          </div>
+          <div class="timeline-line"></div>
+          <div class="timeline-phase" data-phase="react">
+            <div class="phase-dot"></div>
+            <span>React</span>
+            <small>Weeks 5–12</small>
+          </div>
+          <div class="timeline-line"></div>
+          <div class="timeline-phase" data-phase="express">
+            <div class="phase-dot"></div>
+            <span>Express</span>
+            <small>Weeks 13–20</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Foundation -->
+    <section class="section container" id="foundation">
+      <div class="section-header">
+        <span class="section-tag foundation-tag">Phase 1</span>
+        <h2>Foundation — HTML, CSS & JavaScript</h2>
+        <p>Build a rock-solid base before diving into frameworks. Spend 4 weeks mastering the web fundamentals.</p>
+      </div>
+
+      <div class="week-grid">
+        <article class="week-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge">Week 1</span>
+            <h3>HTML & Web Basics</h3>
+          </div>
+          <ul class="topic-list">
+            <li>Document structure, semantic tags</li>
+            <li>Forms, inputs, accessibility basics</li>
+            <li>Links, images, media elements</li>
+            <li>DevTools & browser basics</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener">W3Schools HTML</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">MDN HTML</a>
+            <a href="https://www.youtube.com/watch?v=qz0aGYrrlhU" target="_blank" rel="noopener">freeCodeCamp HTML</a>
+          </div>
+        </article>
+
+        <article class="week-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge">Week 2</span>
+            <h3>CSS & Responsive Design</h3>
+          </div>
+          <ul class="topic-list">
+            <li>Selectors, box model, flexbox</li>
+            <li>CSS Grid layouts</li>
+            <li>Responsive design & media queries</li>
+            <li>CSS variables & transitions</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://www.w3schools.com/css/" target="_blank" rel="noopener">W3Schools CSS</a>
+            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="noopener">Flexbox Guide</a>
+            <a href="https://www.youtube.com/watch?v=1Rs2ND1ryYc" target="_blank" rel="noopener">CSS Crash Course</a>
+          </div>
+        </article>
+
+        <article class="week-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge">Week 3</span>
+            <h3>JavaScript Fundamentals</h3>
+          </div>
+          <ul class="topic-list">
+            <li>Variables, data types, operators</li>
+            <li>Functions, scope, closures</li>
+            <li>Arrays, objects, loops</li>
+            <li>DOM manipulation & events</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://www.w3schools.com/js/" target="_blank" rel="noopener">W3Schools JS</a>
+            <a href="https://javascript.info/" target="_blank" rel="noopener">JavaScript.info</a>
+            <a href="https://www.youtube.com/watch?v=PkZNo7MFNFg" target="_blank" rel="noopener">JS Full Course</a>
+          </div>
+        </article>
+
+        <article class="week-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge">Week 4</span>
+            <h3>Advanced JavaScript & ES6+</h3>
+          </div>
+          <ul class="topic-list">
+            <li>Promises, async/await, fetch API</li>
+            <li>Destructuring, spread, arrow functions</li>
+            <li>Modules (import/export)</li>
+            <li>Build a vanilla JS mini project</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://www.w3schools.com/js/js_es6.asp" target="_blank" rel="noopener">W3Schools ES6</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener">MDN JS</a>
+            <a href="https://www.youtube.com/c/TraversyMedia" target="_blank" rel="noopener">Traversy Media</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- React -->
+    <section class="section container" id="react">
+      <div class="section-header">
+        <span class="section-tag react-tag">Phase 2 — 2 Months</span>
+        <h2>React — Modern Frontend Development</h2>
+        <p>8 weeks to go from React basics to building production-ready single-page applications.</p>
+      </div>
+
+      <div class="month-divider">
+        <span>Month 1 — Core React</span>
+      </div>
+
+      <div class="week-grid">
+        <article class="week-card react-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge react-badge">Week 5</span>
+            <h3>React Setup & JSX</h3>
+          </div>
+          <ul class="topic-list">
+            <li>What is React & why use it</li>
+            <li>Vite + React setup</li>
+            <li>JSX syntax & rendering</li>
+            <li>Components & props</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://react.dev/learn" target="_blank" rel="noopener">React Docs</a>
+            <a href="https://www.w3schools.com/react/" target="_blank" rel="noopener">W3Schools React</a>
+            <a href="https://www.youtube.com/watch?v=SqcY0GlETPk" target="_blank" rel="noopener">React in 100 Seconds</a>
+          </div>
+        </article>
+
+        <article class="week-card react-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge react-badge">Week 6</span>
+            <h3>State & Events</h3>
+          </div>
+          <ul class="topic-list">
+            <li>useState hook deep dive</li>
+            <li>Event handling in React</li>
+            <li>Controlled vs uncontrolled inputs</li>
+            <li>Conditional rendering & lists</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://react.dev/reference/react/useState" target="_blank" rel="noopener">useState Docs</a>
+            <a href="https://www.youtube.com/watch?v=Rh3tobg7hEo" target="_blank" rel="noopener">React Hooks Course</a>
+          </div>
+        </article>
+
+        <article class="week-card react-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge react-badge">Week 7</span>
+            <h3>Effects & Data Fetching</h3>
+          </div>
+          <ul class="topic-list">
+            <li>useEffect lifecycle</li>
+            <li>Fetching data with fetch/axios</li>
+            <li>Loading & error states</li>
+            <li>Custom hooks basics</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://react.dev/reference/react/useEffect" target="_blank" rel="noopener">useEffect Docs</a>
+            <a href="https://www.youtube.com/c/WebDevSimplified" target="_blank" rel="noopener">Web Dev Simplified</a>
+          </div>
+        </article>
+
+        <article class="week-card react-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge react-badge">Week 8</span>
+            <h3>Routing & Forms</h3>
+          </div>
+          <ul class="topic-list">
+            <li>React Router v6 setup</li>
+            <li>Nested routes & navigation</li>
+            <li>Form handling & validation</li>
+            <li>Project: Multi-page React app</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://reactrouter.com/en/main" target="_blank" rel="noopener">React Router</a>
+            <a href="https://www.youtube.com/watch?v=Ul3Q5lGKsfY" target="_blank" rel="noopener">React Router Tutorial</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="month-divider">
+        <span>Month 2 — Advanced React</span>
+      </div>
+
+      <div class="week-grid">
+        <article class="week-card react-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge react-badge">Week 9</span>
+            <h3>Context & Global State</h3>
+          </div>
+          <ul class="topic-list">
+            <li>React Context API</li>
+            <li>useReducer for complex state</li>
+            <li>Intro to Zustand / Redux Toolkit</li>
+            <li>Theme & auth state patterns</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://react.dev/reference/react/useContext" target="_blank" rel="noopener">Context Docs</a>
+            <a href="https://redux-toolkit.js.org/" target="_blank" rel="noopener">Redux Toolkit</a>
+          </div>
+        </article>
+
+        <article class="week-card react-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge react-badge">Week 10</span>
+            <h3>Styling & UI Libraries</h3>
+          </div>
+          <ul class="topic-list">
+            <li>CSS Modules & Tailwind CSS</li>
+            <li>Component libraries (shadcn/ui)</li>
+            <li>Responsive component design</li>
+            <li>Dark mode implementation</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://tailwindcss.com/docs" target="_blank" rel="noopener">Tailwind Docs</a>
+            <a href="https://ui.shadcn.com/" target="_blank" rel="noopener">shadcn/ui</a>
+          </div>
+        </article>
+
+        <article class="week-card react-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge react-badge">Week 11</span>
+            <h3>Performance & Testing</h3>
+          </div>
+          <ul class="topic-list">
+            <li>useMemo, useCallback, memo</li>
+            <li>Code splitting & lazy loading</li>
+            <li>React Testing Library basics</li>
+            <li>Debugging with React DevTools</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://react.dev/reference/react/memo" target="_blank" rel="noopener">React memo</a>
+            <a href="https://testing-library.com/docs/react-testing-library/intro/" target="_blank" rel="noopener">Testing Library</a>
+          </div>
+        </article>
+
+        <article class="week-card react-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge react-badge">Week 12</span>
+            <h3>Capstone React Project</h3>
+          </div>
+          <ul class="topic-list">
+            <li>Build a full SPA (e-commerce / dashboard)</li>
+            <li>API integration & error boundaries</li>
+            <li>Deploy to Vercel / Netlify</li>
+            <li>Portfolio-ready project</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://vercel.com/docs" target="_blank" rel="noopener">Vercel Deploy</a>
+            <a href="https://www.youtube.com/c/TheNetNinja" target="_blank" rel="noopener">Net Ninja</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Express -->
+    <section class="section container" id="express">
+      <div class="section-header">
+        <span class="section-tag express-tag">Phase 3 — 2 Months</span>
+        <h2>Express — Backend Development</h2>
+        <p>8 weeks to master Node.js, Express APIs, databases, and full-stack integration.</p>
+      </div>
+
+      <div class="month-divider">
+        <span>Month 1 — Node & Express Core</span>
+      </div>
+
+      <div class="week-grid">
+        <article class="week-card express-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge express-badge">Week 13</span>
+            <h3>Node.js Fundamentals</h3>
+          </div>
+          <ul class="topic-list">
+            <li>What is Node.js & npm</li>
+            <li>Modules, fs, path, events</li>
+            <li>Package.json & scripts</li>
+            <li>Environment variables (.env)</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://www.w3schools.com/nodejs/" target="_blank" rel="noopener">W3Schools Node</a>
+            <a href="https://nodejs.org/en/docs" target="_blank" rel="noopener">Node.js Docs</a>
+            <a href="https://www.youtube.com/watch?v=TlB_eWDSMt4" target="_blank" rel="noopener">Node.js Crash Course</a>
+          </div>
+        </article>
+
+        <article class="week-card express-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge express-badge">Week 14</span>
+            <h3>Express Basics</h3>
+          </div>
+          <ul class="topic-list">
+            <li>Express server setup</li>
+            <li>Routing & middleware</li>
+            <li>Request/response handling</li>
+            <li>REST API principles</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://expressjs.com/" target="_blank" rel="noopener">Express Docs</a>
+            <a href="https://www.w3schools.com/nodejs/nodejs_express.asp" target="_blank" rel="noopener">W3Schools Express</a>
+            <a href="https://www.youtube.com/watch?v=L72fhGm1tfE" target="_blank" rel="noopener">Express Tutorial</a>
+          </div>
+        </article>
+
+        <article class="week-card express-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge express-badge">Week 15</span>
+            <h3>APIs & Validation</h3>
+          </div>
+          <ul class="topic-list">
+            <li>CRUD operations</li>
+            <li>Request body parsing (JSON)</li>
+            <li>Input validation (Zod/Joi)</li>
+            <li>Error handling middleware</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://restfulapi.net/" target="_blank" rel="noopener">REST API Guide</a>
+            <a href="https://zod.dev/" target="_blank" rel="noopener">Zod Validation</a>
+          </div>
+        </article>
+
+        <article class="week-card express-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge express-badge">Week 16</span>
+            <h3>Authentication</h3>
+          </div>
+          <ul class="topic-list">
+            <li>JWT authentication flow</li>
+            <li>Password hashing (bcrypt)</li>
+            <li>Protected routes & middleware</li>
+            <li>Session vs token auth</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://jwt.io/introduction" target="_blank" rel="noopener">JWT.io</a>
+            <a href="https://www.youtube.com/watch?v=7Q17RubpWlA" target="_blank" rel="noopener">JWT Auth Tutorial</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="month-divider">
+        <span>Month 2 — Databases & Full Stack</span>
+      </div>
+
+      <div class="week-grid">
+        <article class="week-card express-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge express-badge">Week 17</span>
+            <h3>MongoDB & Mongoose</h3>
+          </div>
+          <ul class="topic-list">
+            <li>NoSQL concepts & MongoDB Atlas</li>
+            <li>Schemas, models, queries</li>
+            <li>Relationships & population</li>
+            <li>CRUD with database</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://www.w3schools.com/mongodb/" target="_blank" rel="noopener">W3Schools MongoDB</a>
+            <a href="https://mongoosejs.com/docs/" target="_blank" rel="noopener">Mongoose Docs</a>
+          </div>
+        </article>
+
+        <article class="week-card express-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge express-badge">Week 18</span>
+            <h3>SQL & PostgreSQL</h3>
+          </div>
+          <ul class="topic-list">
+            <li>SQL basics & queries</li>
+            <li>PostgreSQL setup</li>
+            <li>Prisma ORM intro</li>
+            <li>SQL vs NoSQL trade-offs</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://www.w3schools.com/sql/" target="_blank" rel="noopener">W3Schools SQL</a>
+            <a href="https://www.prisma.io/docs" target="_blank" rel="noopener">Prisma Docs</a>
+          </div>
+        </article>
+
+        <article class="week-card express-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge express-badge">Week 19</span>
+            <h3>Full Stack Integration</h3>
+          </div>
+          <ul class="topic-list">
+            <li>Connect React frontend to Express API</li>
+            <li>CORS configuration</li>
+            <li>File uploads (Multer)</li>
+            <li>API documentation (Swagger)</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS" target="_blank" rel="noopener">MDN CORS</a>
+            <a href="https://swagger.io/docs/" target="_blank" rel="noopener">Swagger Docs</a>
+          </div>
+        </article>
+
+        <article class="week-card express-card" data-animate>
+          <div class="week-header">
+            <span class="week-badge express-badge">Week 20</span>
+            <h3>Deploy & Capstone</h3>
+          </div>
+          <ul class="topic-list">
+            <li>Deploy Express to Render/Railway</li>
+            <li>Production best practices</li>
+            <li>Build full-stack MERN project</li>
+            <li>Resume & portfolio polish</li>
+          </ul>
+          <div class="resource-links">
+            <a href="https://render.com/docs" target="_blank" rel="noopener">Render Deploy</a>
+            <a href="https://www.youtube.com/c/programmingwithmosh" target="_blank" rel="noopener">Programming with Mosh</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Resources -->
+    <section class="section container" id="resources">
+      <div class="section-header">
+        <span class="section-tag">Bonus</span>
+        <h2>Curated Learning Resources</h2>
+        <p>Hand-picked websites, YouTube channels, and tools to accelerate your journey.</p>
+      </div>
+
+      <div class="resources-grid">
+        <div class="resource-category" data-animate>
+          <div class="category-icon">📚</div>
+          <h3>Documentation & Tutorials</h3>
+          <ul>
+            <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener">W3Schools</a></li>
+            <li><a href="https://javascript.info/" target="_blank" rel="noopener">JavaScript.info</a></li>
+            <li><a href="https://react.dev/" target="_blank" rel="noopener">React Official Docs</a></li>
+            <li><a href="https://expressjs.com/" target="_blank" rel="noopener">Express.js Docs</a></li>
+          </ul>
+        </div>
+
+        <div class="resource-category" data-animate>
+          <div class="category-icon">🎬</div>
+          <h3>YouTube Channels</h3>
+          <ul>
+            <li><a href="https://www.youtube.com/c/TraversyMedia" target="_blank" rel="noopener">Traversy Media</a></li>
+            <li><a href="https://www.youtube.com/c/WebDevSimplified" target="_blank" rel="noopener">Web Dev Simplified</a></li>
+            <li><a href="https://www.youtube.com/c/TheNetNinja" target="_blank" rel="noopener">The Net Ninja</a></li>
+            <li><a href="https://www.youtube.com/c/programmingwithmosh" target="_blank" rel="noopener">Programming with Mosh</a></li>
+            <li><a href="https://www.youtube.com/c/freecodecamp" target="_blank" rel="noopener">freeCodeCamp</a></li>
+          </ul>
+        </div>
+
+        <div class="resource-category" data-animate>
+          <div class="category-icon">🛠️</div>
+          <h3>Tools & Practice</h3>
+          <ul>
+            <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://leetcode.com/" target="_blank" rel="noopener">LeetCode (JS Practice)</a></li>
+            <li><a href="https://www.frontendmentor.io/" target="_blank" rel="noopener">Frontend Mentor</a></li>
+            <li><a href="https://codepen.io/" target="_blank" rel="noopener">CodePen</a></li>
+            <li><a href="https://stackoverflow.com/" target="_blank" rel="noopener">Stack Overflow</a></li>
+          </ul>
+        </div>
+
+        <div class="resource-category" data-animate>
+          <div class="category-icon">💡</div>
+          <h3>Tips for Success</h3>
+          <ul class="tips-list">
+            <li>Code every day — even 30 minutes counts</li>
+            <li>Build projects, don't just watch tutorials</li>
+            <li>Read official docs alongside videos</li>
+            <li>Join dev communities (Discord, Reddit)</li>
+            <li>Push all projects to GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section container" data-animate>
+      <div class="cta-card">
+        <h2>Ready to Start Your Journey?</h2>
+        <p>Follow this roadmap week by week. Consistency beats intensity — show up daily and you'll be full-stack ready in 5 months.</p>
+        <a href="#foundation" class="cta-button">Begin Week 1 →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <span class="logo-icon">⚡</span>
+        <p>Made with ❤️ by <strong>Karan</strong></p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/karan00006" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.395-.135-.345-.72-1.395-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/karan00006" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Karan. Open source learning roadmap.</p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
