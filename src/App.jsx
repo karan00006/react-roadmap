@@ -24,8 +24,9 @@ const roadmapData = {
           { name: "W3Schools CSS", url: "https://www.w3schools.com/css/", type: "website" },
           { name: "MDN Web Docs", url: "https://developer.mozilla.org/en-US/docs/Web/HTML", type: "website" },
           { name: "CSS Tricks", url: "https://css-tricks.com/", type: "website" },
-          { name: "Traversy Media", url: "https://www.youtube.com/c/TraversyMedia", type: "youtube" },
-          { name: "Kevin Powell", url: "https://www.youtube.com/@KevinPowell", type: "youtube" }
+          { name: "HTML & CSS Full Course", url: "https://www.youtube.com/watch?v=kUMe1FH4CHE", type: "youtube" },
+          { name: "CSS Flexbox Course", url: "https://www.youtube.com/watch?v=3J65DdHk2-0", type: "youtube" },
+          { name: "CSS Grid Course", url: "https://www.youtube.com/watch?v=jV8B24rSN5o", type: "youtube" }
         ]
       },
       {
@@ -42,9 +43,9 @@ const roadmapData = {
           { name: "W3Schools JavaScript", url: "https://www.w3schools.com/js/", type: "website" },
           { name: "JavaScript.info", url: "https://javascript.info/", type: "website" },
           { name: "MDN JavaScript", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript", type: "website" },
-          { name: "freeCodeCamp", url: "https://www.youtube.com/c/freeCodeCamp", type: "youtube" },
-          { name: "Net Ninja", url: "https://www.youtube.com/c/TheNetNinja", type: "youtube" },
-          { name: "JavaScript Mastery", url: "https://www.youtube.com/c/jsmasterypro", type: "youtube" }
+          { name: "JavaScript Full Course", url: "https://www.youtube.com/watch?v=PkZNo7MFNFg", type: "youtube" },
+          { name: "JavaScript for Beginners", url: "https://www.youtube.com/watch?v=hdI2bqOjy3c", type: "youtube" },
+          { name: "ES6+ JavaScript Tutorial", url: "https://www.youtube.com/watch?v=n1RpwMzFGro", type: "youtube" }
         ]
       },
       {
@@ -61,9 +62,9 @@ const roadmapData = {
           { name: "React Documentation", url: "https://react.dev/learn", type: "website" },
           { name: "W3Schools React", url: "https://www.w3schools.com/react/", type: "website" },
           { name: "React Tutorial", url: "https://reactjs.org/tutorial/tutorial.html", type: "website" },
-          { name: "Traversy Media React", url: "https://www.youtube.com/playlist?list=PLillGF-RfqbbQeVSccR9FqNt81Tx7833k", type: "youtube" },
-          { name: "Web Dev Simplified", url: "https://www.youtube.com/c/WebDevSimplified", type: "youtube" },
-          { name: "Code with Ania", url: "https://www.youtube.com/c/CodeWithAniaKubow", type: "youtube" }
+          { name: "React Full Course", url: "https://www.youtube.com/watch?v=SqcY0GlETPk", type: "youtube" },
+          { name: "React Tutorial for Beginners", url: "https://www.youtube.com/watch?v=w7ejDZ8SWv8", type: "youtube" },
+          { name: "React Hooks Tutorial", url: "https://www.youtube.com/watch?v=TNhaWjU5q9I", type: "youtube" }
         ]
       },
       {
@@ -80,9 +81,9 @@ const roadmapData = {
           { name: "React Router Docs", url: "https://reactrouter.com/", type: "website" },
           { name: "Redux Toolkit", url: "https://redux-toolkit.js.org/", type: "website" },
           { name: "React Query", url: "https://tanstack.com/query/latest", type: "website" },
-          { name: "Academind React", url: "https://www.youtube.com/c/Academind", type: "youtube" },
-          { name: "Fireship", url: "https://www.youtube.com/c/Fireship", type: "youtube" },
-          { name: "Ben Awad", url: "https://www.youtube.com/c/BenAwad97", type: "youtube" }
+          { name: "React Router Tutorial", url: "https://www.youtube.com/watch?v=Ul3y1LXxzwU", type: "youtube" },
+          { name: "Redux Toolkit Tutorial", url: "https://www.youtube.com/watch?v=9zySeJTg-LM", type: "youtube" },
+          { name: "React Query Course", url: "https://www.youtube.com/watch?v=AMl2vXXVm1U", type: "youtube" }
         ]
       },
       {
@@ -99,9 +100,9 @@ const roadmapData = {
           { name: "Redux Docs", url: "https://redux.js.org/", type: "website" },
           { name: "Zustand Docs", url: "https://zustand-demo.pmnd.rs/", type: "website" },
           { name: "React Performance", url: "https://react.dev/learn/render-and-commit", type: "website" },
-          { name: "Jack Herrington", url: "https://www.youtube.com/c/JackHerrington", type: "youtube" },
-          { name: "Theo - t3.gg", url: "https://www.youtube.com/c/theot3", type: "youtube" },
-          { name: "Kent C. Dodds", url: "https://www.youtube.com/c/kentcdodds", type: "youtube" }
+          { name: "Advanced React Patterns", url: "https://www.youtube.com/watch?v=xsSnOQynmYU", type: "youtube" },
+          { name: "React Performance Optimization", url: "https://www.youtube.com/watch?v=CvA7FBsL3LQ", type: "youtube" },
+          { name: "Zustand Tutorial", url: "https://www.youtube.com/watch?v=X2t7mnWWp4E", type: "youtube" }
         ]
       },
       {
@@ -118,9 +119,9 @@ const roadmapData = {
           { name: "Testing Library", url: "https://testing-library.com/", type: "website" },
           { name: "Cypress Docs", url: "https://docs.cypress.io/", type: "website" },
           { name: "GitHub Actions", url: "https://docs.github.com/actions", type: "website" },
-          { name: "Vercel Docs", url: "https://vercel.com/docs", type: "website" },
-          { name: "Testing JavaScript", url: "https://www.youtube.com/c/TestingJavaScript", type: "youtube" },
-          { name: "Netlify", url: "https://www.youtube.com/c/Netlify", type: "youtube" }
+          { name: "Jest Testing Tutorial", url: "https://www.youtube.com/watch?v=7rT5v2VgWmE", type: "youtube" },
+          { name: "React Testing Library", url: "https://www.youtube.com/watch?v=ML5egN8xIOE", type: "youtube" },
+          { name: "Cypress E2E Testing", url: "https://www.youtube.com/watch?v=6Jz1c1P6g7M", type: "youtube" }
         ]
       },
       {
@@ -137,9 +138,9 @@ const roadmapData = {
           { name: "Tailwind CSS", url: "https://tailwindcss.com/docs", type: "website" },
           { name: "Material UI", url: "https://mui.com/", type: "website" },
           { name: "shadcn/ui", url: "https://ui.shadcn.com/", type: "website" },
-          { name: "Framer Motion", url: "https://www.framer.com/motion/", type: "website" },
-          { name: "DesignCourse", url: "https://www.youtube.com/c/DesignCourse", type: "youtube" },
-          { name: "Gary Simon", url: "https://www.youtube.com/c/GarySimonDesign", type: "youtube" }
+          { name: "Tailwind CSS Full Course", url: "https://www.youtube.com/watch?v=ft30zcMlFao", type: "youtube" },
+          { name: "Material UI Tutorial", url: "https://www.youtube.com/watch?v=1e-fDIK5T7U", type: "youtube" },
+          { name: "Framer Motion Tutorial", url: "https://www.youtube.com/watch?v=2T-lO8b_4f8", type: "youtube" }
         ]
       },
       {
@@ -156,9 +157,9 @@ const roadmapData = {
           { name: "GitHub Guides", url: "https://guides.github.com/", type: "website" },
           { name: "Portfolio Examples", url: "https://www.awwwards.com/", type: "website" },
           { name: "Frontend Interview", url: "https://frontendinterviewhandbook.com/", type: "website" },
-          { name: "Clement Mihailescu", url: "https://www.youtube.com/c/ClementMihailescu", type: "youtube" },
-          { name: "Tech With Tim", url: "https://www.youtube.com/c/TechWithTim", type: "youtube" },
-          { name: "Fireship Interviews", url: "https://www.youtube.com/c/Fireship", type: "youtube" }
+          { name: "React Portfolio Tutorial", url: "https://www.youtube.com/watch?v=1tjO1bBQ0L0", type: "youtube" },
+          { name: "Frontend Interview Prep", url: "https://www.youtube.com/watch?v=DEqY54tC7p8", type: "youtube" },
+          { name: "GitHub Portfolio Guide", url: "https://www.youtube.com/watch?v=0f5gY8eC4JQ", type: "youtube" }
         ]
       }
     ]
@@ -183,9 +184,9 @@ const roadmapData = {
           { name: "Node.js Docs", url: "https://nodejs.org/docs/", type: "website" },
           { name: "W3Schools Node.js", url: "https://www.w3schools.com/nodejs/", type: "website" },
           { name: "Node.js Best Practices", url: "https://github.com/goldbergyoni/nodebestpractices", type: "website" },
-          { name: "Net Ninja Node.js", url: "https://www.youtube.com/playlist?list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU", type: "youtube" },
-          { name: "Traversy Media Node", url: "https://www.youtube.com/playlist?list=PLillGF-RfqbbQeVSccR9FqNt81Tx7833k", type: "youtube" },
-          { name: "Academind Node", url: "https://www.youtube.com/c/Academind", type: "youtube" }
+          { name: "Node.js Full Course", url: "https://www.youtube.com/watch?v=Oe421EPjeBE", type: "youtube" },
+          { name: "Node.js Crash Course", url: "https://www.youtube.com/watch?v=fbYCNfcsN1Y", type: "youtube" },
+          { name: "Node.js Tutorial for Beginners", url: "https://www.youtube.com/watch?v=U8XF6AFGqlc", type: "youtube" }
         ]
       },
       {
@@ -202,9 +203,9 @@ const roadmapData = {
           { name: "Express Docs", url: "https://expressjs.com/", type: "website" },
           { name: "Express Tutorial", url: "https://expressjs.com/en/starter/hello-world.html", type: "website" },
           { name: "MDN Express", url: "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs", type: "website" },
-          { name: "Web Dev Simplified Express", url: "https://www.youtube.com/c/WebDevSimplified", type: "youtube" },
-          { name: "Hitesh Choudhary", url: "https://www.youtube.com/c/HiteshChoudharydotcom", type: "youtube" },
-          { name: "Codevolution", url: "https://www.youtube.com/c/Codevolution", type: "youtube" }
+          { name: "Express.js Full Course", url: "https://www.youtube.com/watch?v=L72fhGm1tfE", type: "youtube" },
+          { name: "Express.js Tutorial", url: "https://www.youtube.com/watch?v=SLWPqooHJGs", type: "youtube" },
+          { name: "Express & Node.js Course", url: "https://www.youtube.com/watch?v=Oe421EPjeBE", type: "youtube" }
         ]
       },
       {
@@ -221,9 +222,9 @@ const roadmapData = {
           { name: "REST API Tutorial", url: "https://restfulapi.net/", type: "website" },
           { name: "API Design Best Practices", url: "https://apisyouwonthate.com/", type: "website" },
           { name: "Postman Learning", url: "https://learning.postman.com/", type: "website" },
-          { name: "Traversy API Design", url: "https://www.youtube.com/c/TraversyMedia", type: "youtube" },
-          { name: "Fireship REST", url: "https://www.youtube.com/c/Fireship", type: "youtube" },
-          { name: "Academind APIs", url: "https://www.youtube.com/c/Academind", type: "youtube" }
+          { name: "REST API Tutorial", url: "https://www.youtube.com/watch?v=-7nJb8slI3k", type: "youtube" },
+          { name: "Building REST APIs", url: "https://www.youtube.com/watch?v=Oe421EPjeBE", type: "youtube" },
+          { name: "API Design Best Practices", url: "https://www.youtube.com/watch?v=7YcWxPHsItc", type: "youtube" }
         ]
       },
       {
@@ -240,9 +241,9 @@ const roadmapData = {
           { name: "MongoDB University", url: "https://university.mongodb.com/", type: "website" },
           { name: "Mongoose Docs", url: "https://mongoosejs.com/docs/", type: "website" },
           { name: "PostgreSQL Tutorial", url: "https://www.postgresql.org/docs/", type: "website" },
-          { name: "Net Ninja MongoDB", url: "https://www.youtube.com/playlist?list=PL4cUxeGkcC9h67RV1mESg_Mq7D1p4XNVv", type: "youtube" },
-          { name: "Traversy Databases", url: "https://www.youtube.com/c/TraversyMedia", type: "youtube" },
-          { name: "FreeCodeCamp SQL", url: "https://www.youtube.com/c/freeCodeCamp", type: "youtube" }
+          { name: "MongoDB Full Course", url: "https://www.youtube.com/watch?v=pWbMrx5rV2w", type: "youtube" },
+          { name: "Mongoose Tutorial", url: "https://www.youtube.com/watch?v=WDrE305SD1U", type: "youtube" },
+          { name: "SQL Full Course", url: "https://www.youtube.com/watch?v=HXV3zeQKqGY", type: "youtube" }
         ]
       },
       {
@@ -259,9 +260,9 @@ const roadmapData = {
           { name: "JWT.io", url: "https://jwt.io/", type: "website" },
           { name: "OWASP Security", url: "https://owasp.org/", type: "website" },
           { name: "Auth0 Docs", url: "https://auth0.com/docs", type: "website" },
-          { name: "Dave Gray Auth", url: "https://www.youtube.com/c/DaveGrayTeachesCode", type: "youtube" },
-          { name: "Web Dev Simplified Auth", url: "https://www.youtube.com/c/WebDevSimplified", type: "youtube" },
-          { name: "Hitesh Choudhary Auth", url: "https://www.youtube.com/c/HiteshChoudharydotcom", type: "youtube" }
+          { name: "JWT Authentication Tutorial", url: "https://www.youtube.com/watch?v=7w17r21KG8k", type: "youtube" },
+          { name: "Node.js Authentication", url: "https://www.youtube.com/watch?v=U8XF6AFGqlc", type: "youtube" },
+          { name: "OAuth 2.0 Tutorial", url: "https://www.youtube.com/watch=996Okx_1C7g", type: "youtube" }
         ]
       },
       {
@@ -278,9 +279,9 @@ const roadmapData = {
           { name: "Jest Docs", url: "https://jestjs.io/", type: "website" },
           { name: "Supertest Docs", url: "https://github.com/visionmedia/supertest", type: "website" },
           { name: "Swagger Docs", url: "https://swagger.io/docs/", type: "website" },
-          { name: "Postman", url: "https://www.youtube.com/c/Postman", type: "youtube" },
-          { name: "Testing API", url: "https://www.youtube.com/c/TestingJavaScript", type: "youtube" },
-          { name: "Academind Testing", url: "https://www.youtube.com/c/Academind", type: "youtube" }
+          { name: "API Testing with Jest", url: "https://www.youtube.com/watch?v=Amg0q3B1vcE", type: "youtube" },
+          { name: "Swagger Documentation", url: "https://www.youtube.com/watch?v=7oYVPo8eq0A", type: "youtube" },
+          { name: "Postman API Testing", url: "https://www.youtube.com/watch?v=VywxI2Qh3Lc", type: "youtube" }
         ]
       },
       {
@@ -297,9 +298,9 @@ const roadmapData = {
           { name: "Docker Docs", url: "https://docs.docker.com/", type: "website" },
           { name: "GitHub Actions", url: "https://docs.github.com/actions", type: "website" },
           { name: "AWS Docs", url: "https://docs.aws.amazon.com/", type: "website" },
-          { name: "DevOps Tutorials", url: "https://www.youtube.com/c/DevOpsTube", type: "youtube" },
-          { name: "Fireship DevOps", url: "https://www.youtube.com/c/Fireship", type: "youtube" },
-          { name: "TechWorld with Nana", url: "https://www.youtube.com/c/TechWorldwithNana", type: "youtube" }
+          { name: "Docker Full Course", url: "https://www.youtube.com/watch?v=3c-iBn7FPGM", type: "youtube" },
+          { name: "GitHub Actions Tutorial", url: "https://www.youtube.com/watch?v=R8veReO7frQ", type: "youtube" },
+          { name: "AWS for Beginners", url: "https://www.youtube.com/watch?v=3snlp2FRnqE", type: "youtube" }
         ]
       },
       {
@@ -316,9 +317,9 @@ const roadmapData = {
           { name: "Full Stack Tutorial", url: "https://www.fullstackopen.com/en/", type: "website" },
           { name: "MERN Stack", url: "https://www.mongodb.com/mern-stack", type: "website" },
           { name: "Deployment Guides", url: "https://www.digitalocean.com/community/tutorials", type: "website" },
-          { name: "Traversy Full Stack", url: "https://www.youtube.com/c/TraversyMedia", type: "youtube" },
-          { name: "Hitesh Choudhary Projects", url: "https://www.youtube.com/c/HiteshChoudharydotcom", type: "youtube" },
-          { name: "JavaScript Mastery", url: "https://www.youtube.com/c/jsmasterypro", type: "youtube" }
+          { name: "MERN Stack Full Course", url: "https://www.youtube.com/watch?v=-0exw-9YJBo", type: "youtube" },
+          { name: "Full Stack Project Tutorial", url: "https://www.youtube.com/watch?v=K8YFLr297y0", type: "youtube" },
+          { name: "E-commerce Full Stack", url: "https://www.youtube.com/watch?v=112TFo8-3g0", type: "youtube" }
         ]
       }
     ]
@@ -361,15 +362,15 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300">
       {/* Header */}
       <header className="sticky top-0 z-50 glass-card border-b border-gray-200 dark:border-gray-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-3 sm:py-4">
           <div className="flex items-center justify-between">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
-              className="flex items-center gap-3"
+              className="flex items-center gap-2 sm:gap-3"
             >
-              <Code2 className="w-8 h-8 text-primary-600 dark:text-primary-400" />
-              <h1 className="text-2xl font-bold gradient-text">Dev Roadmap</h1>
+              <Code2 className="w-6 h-6 sm:w-8 sm:h-8 text-primary-600 dark:text-primary-400" />
+              <h1 className="text-xl sm:text-2xl font-bold gradient-text">Dev Roadmap</h1>
             </motion.div>
             
             <motion.button
@@ -379,19 +380,19 @@ function App() {
               className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
               aria-label="Toggle dark mode"
             >
-              {darkMode ? <Sun className="w-5 h-5 text-yellow-400" /> : <Moon className="w-5 h-5 text-gray-700" />}
+              {darkMode ? <Sun className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400" /> : <Moon className="w-4 h-4 sm:w-5 sm:h-5 text-gray-700" />}
             </motion.button>
           </div>
         </div>
       </header>
 
       {/* Hero Section */}
-      <section className="py-12 px-4 sm:px-6 lg:px-8">
+      <section className="py-8 sm:py-12 px-3 sm:px-4 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-4xl sm:text-5xl font-bold mb-4 gradient-text"
+            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 gradient-text"
           >
             Your Complete Learning Roadmap
           </motion.h2>
@@ -399,7 +400,7 @@ function App() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-gray-600 dark:text-gray-300 mb-8"
+            className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-6 sm:mb-8"
           >
             Master Frontend with React and Backend with Express in just 4 months
           </motion.p>
@@ -409,7 +410,7 @@ function App() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center"
+            className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center"
           >
             {Object.entries(roadmapData).map(([key, track]) => {
               const Icon = track.icon
@@ -417,15 +418,15 @@ function App() {
                 <button
                   key={key}
                   onClick={() => setActiveTrack(key)}
-                  className={`flex items-center gap-3 px-6 py-4 rounded-xl font-semibold transition-all duration-300 ${
+                  className={`flex items-center justify-center gap-2 sm:gap-3 px-4 sm:px-6 py-3 sm:py-4 rounded-xl font-semibold transition-all duration-300 ${
                     activeTrack === key
                       ? `bg-gradient-to-r ${track.color} text-white shadow-lg scale-105`
                       : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:shadow-md'
                   }`}
                 >
-                  <Icon className="w-6 h-6" />
-                  <span>{track.title}</span>
-                  <span className="text-sm opacity-80">({track.duration})</span>
+                  <Icon className="w-5 h-5 sm:w-6 sm:h-6" />
+                  <span className="text-sm sm:text-base">{track.title}</span>
+                  <span className="text-xs sm:text-sm opacity-80">({track.duration})</span>
                 </button>
               )
             })}
@@ -434,7 +435,7 @@ function App() {
       </section>
 
       {/* Roadmap Content */}
-      <section className="py-8 px-4 sm:px-6 lg:px-8">
+      <section className="py-6 sm:py-8 px-3 sm:px-4 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <AnimatePresence mode="wait">
             <motion.div
@@ -443,7 +444,7 @@ function App() {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
               transition={{ duration: 0.3 }}
-              className="space-y-4"
+              className="space-y-3 sm:space-y-4"
             >
               {roadmapData[activeTrack].weeks.map((weekData) => (
                 <motion.div
@@ -451,29 +452,29 @@ function App() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: (weekData.week - 1) * 0.1 }}
-                  className="glass-card rounded-2xl overflow-hidden hover-lift"
+                  className="glass-card rounded-xl sm:rounded-2xl overflow-hidden hover-lift"
                 >
                   <button
                     onClick={() => toggleWeek(weekData.week)}
-                    className="w-full px-6 py-5 flex items-center justify-between text-left"
+                    className="w-full px-4 sm:px-6 py-4 sm:py-5 flex items-center justify-between text-left"
                   >
-                    <div className="flex items-center gap-4">
-                      <div className={`w-12 h-12 rounded-xl bg-gradient-to-r ${roadmapData[activeTrack].color} flex items-center justify-center text-white font-bold text-lg`}>
+                    <div className="flex items-center gap-3 sm:gap-4">
+                      <div className={`w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-gradient-to-r ${roadmapData[activeTrack].color} flex items-center justify-center text-white font-bold text-base sm:text-lg flex-shrink-0`}>
                         {weekData.week}
                       </div>
-                      <div>
-                        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="text-base sm:text-lg font-semibold text-gray-900 dark:text-white truncate">
                           Week {weekData.week}: {weekData.title}
                         </h3>
-                        <p className="text-sm text-gray-500 dark:text-gray-400">
+                        <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">
                           {weekData.topics.length} topics to master
                         </p>
                       </div>
                     </div>
                     {expandedWeek === weekData.week ? (
-                      <ChevronDown className="w-5 h-5 text-gray-500 dark:text-gray-400" />
+                      <ChevronDown className="w-4 h-4 sm:w-5 sm:h-5 text-gray-500 dark:text-gray-400 flex-shrink-0" />
                     ) : (
-                      <ChevronRight className="w-5 h-5 text-gray-500 dark:text-gray-400" />
+                      <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-gray-500 dark:text-gray-400 flex-shrink-0" />
                     )}
                   </button>
 
@@ -486,20 +487,20 @@ function App() {
                         transition={{ duration: 0.3 }}
                         className="border-t border-gray-200 dark:border-gray-700"
                       >
-                        <div className="p-6 space-y-6">
+                        <div className="p-4 sm:p-6 space-y-4 sm:space-y-6">
                           {/* Topics */}
                           <div>
-                            <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3 uppercase tracking-wide">
+                            <h4 className="text-xs sm:text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2 sm:mb-3 uppercase tracking-wide">
                               Topics to Learn
                             </h4>
-                            <div className="flex flex-wrap gap-2">
+                            <div className="flex flex-wrap gap-1.5 sm:gap-2">
                               {weekData.topics.map((topic, idx) => (
                                 <motion.span
                                   key={idx}
                                   initial={{ opacity: 0, scale: 0.8 }}
                                   animate={{ opacity: 1, scale: 1 }}
                                   transition={{ delay: idx * 0.05 }}
-                                  className="px-3 py-1.5 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-full text-sm font-medium"
+                                  className="px-2.5 py-1 sm:px-3 sm:py-1.5 bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 rounded-full text-xs sm:text-sm font-medium"
                                 >
                                   {topic}
                                 </motion.span>
@@ -509,10 +510,10 @@ function App() {
 
                           {/* Resources */}
                           <div>
-                            <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3 uppercase tracking-wide">
+                            <h4 className="text-xs sm:text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2 sm:mb-3 uppercase tracking-wide">
                               Learning Resources
                             </h4>
-                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <div className="grid grid-cols-1 gap-2 sm:gap-3">
                               {weekData.resources.map((resource, idx) => (
                                 <motion.a
                                   key={idx}
@@ -522,19 +523,19 @@ function App() {
                                   href={resource.url}
                                   target="_blank"
                                   rel="noopener noreferrer"
-                                  className="flex items-center gap-3 p-3 rounded-lg bg-gray-50 dark:bg-gray-700/50 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors group"
+                                  className="flex items-center gap-2 sm:gap-3 p-2.5 sm:p-3 rounded-lg bg-gray-50 dark:bg-gray-700/50 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors group"
                                 >
-                                  <span className={`p-2 rounded-lg ${
+                                  <span className={`p-1.5 sm:p-2 rounded-lg ${
                                     resource.type === 'youtube' 
                                       ? 'bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400' 
                                       : 'bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400'
                                   }`}>
                                     {getResourceIcon(resource.type)}
                                   </span>
-                                  <span className="flex-1 text-sm font-medium text-gray-700 dark:text-gray-300">
+                                  <span className="flex-1 text-xs sm:text-sm font-medium text-gray-700 dark:text-gray-300 truncate">
                                     {resource.name}
                                   </span>
-                                  <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-gray-600 dark:group-hover:text-gray-200 transition-colors" />
+                                  <ExternalLink className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-gray-400 group-hover:text-gray-600 dark:group-hover:text-gray-200 transition-colors flex-shrink-0" />
                                 </motion.a>
                               ))}
                             </div>
@@ -551,30 +552,30 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="mt-16 py-8 border-t border-gray-200 dark:border-gray-700 bg-white/50 dark:bg-gray-800/50 backdrop-blur">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-gray-600 dark:text-gray-400">
+      <footer className="mt-12 sm:mt-16 py-6 sm:py-8 border-t border-gray-200 dark:border-gray-700 bg-white/50 dark:bg-gray-800/50 backdrop-blur">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6">
+            <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400 text-center sm:text-left">
               Made with ❤️ by <span className="font-semibold text-primary-600 dark:text-primary-400">Karan</span>
             </p>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-3 sm:gap-4">
               <a
                 href="https://www.linkedin.com/in/karan-jee-50868b315"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#0077b5] text-white hover:bg-[#006097] transition-colors"
+                className="flex items-center gap-2 px-3 sm:px-4 py-2 rounded-lg bg-[#0077b5] text-white hover:bg-[#006097] transition-colors"
               >
-                <Linkedin className="w-5 h-5" />
-                <span className="font-medium">LinkedIn</span>
+                <Linkedin className="w-4 h-4 sm:w-5 sm:h-5" />
+                <span className="font-medium text-sm sm:text-base">LinkedIn</span>
               </a>
               <a
                 href="https://github.com/karan00006"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-900 dark:bg-gray-700 text-white hover:bg-gray-800 dark:hover:bg-gray-600 transition-colors"
+                className="flex items-center gap-2 px-3 sm:px-4 py-2 rounded-lg bg-gray-900 dark:bg-gray-700 text-white hover:bg-gray-800 dark:hover:bg-gray-600 transition-colors"
               >
-                <Github className="w-5 h-5" />
-                <span className="font-medium">GitHub</span>
+                <Github className="w-4 h-4 sm:w-5 sm:h-5" />
+                <span className="font-medium text-sm sm:text-base">GitHub</span>
               </a>
             </div>
           </div>
