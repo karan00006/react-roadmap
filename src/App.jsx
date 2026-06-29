@@ -383,10 +383,13 @@ function App() {
       <header className="sticky top-0 z-50 glass-card border-b border-gray-200 dark:border-gray-700">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8 py-3 sm:py-4">
           <div className="flex items-center justify-between">
-            <motion.div
+            <motion.a
+              href="https://github.com/karan00006/react-roadmap"
+              target="_blank"
+              rel="noopener noreferrer"
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
-              className="flex items-center gap-2 sm:gap-3"
+              className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity"
             >
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-500 to-accent-500 rounded-xl blur-lg opacity-50 animate-pulse"></div>
@@ -398,7 +401,7 @@ function App() {
                 <h1 className="text-xl sm:text-2xl font-bold gradient-text">Dev Roadmap</h1>
                 <p className="text-xs text-gray-500 dark:text-gray-400 font-medium tracking-wider">LEARN • BUILD • DEPLOY</p>
               </div>
-            </motion.div>
+            </motion.a>
             
             <motion.button
               initial={{ opacity: 0, x: 20 }}
